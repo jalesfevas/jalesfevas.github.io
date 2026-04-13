@@ -45,6 +45,38 @@
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can Excel open ICS files directly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Excel does not have native ICS support. You must convert ICS to CSV format first using a free online tool at https://ics-csv-converter.pages.dev then open the CSV in Excel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I open an ICS file in Microsoft Excel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "First convert your ICS file to CSV format using a free converter at https://ics-csv-converter.pages.dev then open the CSV in Excel using File and Open. Excel will automatically parse the columns including event date, time, title and description."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I lose data converting ICS to CSV for Excel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Basic event fields like title, date, time, location and description are preserved. Complex fields like recurring event rules may not convert perfectly. Always verify the output and keep the original ICS file as backup."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <article>
